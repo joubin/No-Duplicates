@@ -1,0 +1,64 @@
+<html>
+<head>
+  <title>Options</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="options.js" ></script>
+  <link rel="stylesheet" href="override.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="PlayPause">
+          <!-- Rounded switch -->
+          <label class="switchtext">
+            Pause Extension
+          </label>
+
+            <label class="switch">
+            <input id="playpause" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+
+        </div>
+
+                <div class="PlayPause">
+          <!-- Rounded switch -->
+          <label class="switchtext">
+            Protect Copy/Paste
+          </label>
+
+            <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+
+        </div>
+        <div class="input-group">
+          <input id="urltoignore" type="text" class="form-control" placeholder="URL to ignore. e.g. example.com or *.example.com">
+          <span class="input-group-btn">
+            <button id="addtoignore" class="btn btn-secondary" type="button">Add</button>
+          </span>
+        </div>
+      
+
+    </div>
+  </div>
+  <table  id="table" class="table">
+
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>URL</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+  </body>
+
+  </html>
