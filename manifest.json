@@ -13,7 +13,6 @@
       "16": "logo.png",
       "48": "logo.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkBJ663F98bH8m9/c1608RWvcQe4OCAJNjk79qkaHMW8VOgtpgYgTsJSw+Qi1X0tdSY32Os6cQJPO16dWJwUKUHygF4D3Qltm6RGL8RQcaCfxA8VSm0jsXogEzlVmjBRxMXOzzXKEZP/BOf4qtr+b4wIu4FDYNQ0UomyeDH9prHy2J8WaEYYVacJQAGvj9p/aNM8KExugpFuEl5WoMm6RypeSvQm+gIUVHIx4TWC7DwmivuSyoDer7+2B0lt7u0mPr3jvqCfHBuGdZyjQDkBn2MyiqeIGu6e+5uId97+Rd++cmrqW3zsPokR0xrHIT9xxXDeZyiVgFgSR51KwKOPm/wIDAQAB",
    "manifest_version": 2,
    "name": "No Duplicates",
    "options_page": "options.html",

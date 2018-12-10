@@ -61,8 +61,11 @@ function loadtable(){
   id = 0;
   cleartable();
   chrome.storage.sync.get("ignoreList", function(item){
-
-    array = Array.from(item["ignoreList"])
+    if (typeof item["ignoreList"] === "undefined") {
+      array = new Array()
+    }else{
+      array = Array.from(item["ignoreList"])
+    }
     array.forEach(function(subitem){
       var row = table.insertRow(1+id++);
       var cell1 = row.insertCell(0);
